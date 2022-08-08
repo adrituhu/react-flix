@@ -1,4 +1,4 @@
-const key = 'your-key';
+const key = 'your-key'; //key from tmdb api
 
 const requests = {
   requestPopular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=1`,
